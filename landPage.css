@@ -97,7 +97,7 @@ div.notebook {
   align-items: center; 
   width: 100%; 
   height: 100px; 
-  background-color: rgba(57, 59, 178, 0.8);  
+  background-color: #393bb2e0;  
 }
 
 .circle {
@@ -147,7 +147,7 @@ left: 80%;
 .bn3637 {
   width: 150px;
   height: 35px;
-  background-color: rgb(9, 9, 173);
+  background-color: #393CB2;
   display: inline-flex;
   align-items: center;
   justify-content: center;

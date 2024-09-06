@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+.container {
+    display: flex; /* Creates a flexible box layout */
+    width: 100%; /* Full width of the page */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.left-side {
+    flex: 0.7; /* Takes up 50% of the space */
+    background-color:#393CB2;;
+    padding: 20px;
+}
+
+.right-side {
+    flex: 1; /* Takes up the other 50% of the space */
+    background-color: #E8F1FF;;
+    padding: 20px;
+}
+
+/* ========================================================================================================================== */
+
+
+.top-part {
+
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 14%;
+    /* border: 3px solid #73AD21; */
+}
+
+.top-part-leftside {
+    flex: 0.4; /* Takes up 50% of the space */
+    padding: 20px;
+}
+
+.top-part-rightside {
+
+    
+    flex: 1; /* Takes up the other 50% of the space */
+    padding: 40px;
+    padding-left: 0px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Varela;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-vote {
+    position: absolute;
+    top: 27%;
+    left: 23%;
+
+}
+
+.circle {
+
+    position: absolute; /* Allows overlapping */
+    top: 3%;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    background-color: #15175C;
+    border-radius: 50%; /* Makes the div a circle */
+
+}
+
+.circle1 {
+    position: absolute; /* Allows overlapping */
+    top: 15px;
+    left: 50px;
+    width: 130px;
+    height: 130px;
+    background-color: #ffffff;
+    border-radius: 50%; /* Makes the div a circle */
+
+}
+
+.fingerprint {
+
+    position: absolute;
+    font-size: 90px;
+    top: 20%;
+    left:70px;
+
+}

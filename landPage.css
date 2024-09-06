@@ -1,7 +1,7 @@
 body {
     background-image: url('images/school1.JPG');
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-attachment:fixed;  
     background-size: cover;
     width: 100%; /* Make the image responsive */
     height: auto; /* Maintain aspect ratio */
@@ -16,7 +16,7 @@ div.rectangle {
   width: 850px;
   height: 340px;
   max-width: auto;
-  border: 3px solid #73AD21;
+  /* border: 3px solid #73AD21; */
 }
 
 div.rectangle img {
@@ -76,14 +76,92 @@ div.rectangle img {
 }
 
 div.notebook {
- 
+  
+  
+  background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
-  top: 20%;
-  left: 65%;
+  top: 13%;
+  left: 60%;
   height: 600px;
-  width: 500px; /* Set a width for the div */
-  overflow-wrap: break-word; /* Long words will break and wrap */
-  border: 3px solid #73AD21;
+  width: 500px;  
+  border-radius: 5%;
+}
+
+
+.circle-container {
+
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  width: 100%; 
+  height: 100px; 
+  background-color: rgba(57, 59, 178, 0.8);  
+}
+
+.circle {
+
+    width: 50px; 
+    height: 50px; 
+    background-color: rgba(255, 255, 255, 0.562); 
+    border-radius: 50%; 
 
 }
 
+
+.notebook-text {
+
+  padding-top: 5%;
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Varela;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.notebook-text1 {
+
+  padding-top: 5%;
+
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.get-started {
+
+position: absolute;
+top: 87%;
+left: 80%;
+}
+
+.bn3637 {
+  width: 150px;
+  height: 35px;
+  background-color: rgb(9, 9, 173);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: Varela;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border-radius: 5px;
+}
+
+.bn36:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}

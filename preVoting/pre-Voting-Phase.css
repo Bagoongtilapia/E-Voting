@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    height: 100vh; /* height of the whole webpage */
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background-color: #393CB2;
+    flex: 1; /* Fills the blue part*/
+
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    background-color: #E8F1FF;
+    flex: 1.5; /* Fills the white part */
+}

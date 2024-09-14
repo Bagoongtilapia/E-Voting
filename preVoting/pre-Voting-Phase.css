@@ -184,7 +184,10 @@ body, html {
 .fill-up-container {
     border: 2px solid rgb(29, 10, 202);
     flex: 60%;
-
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 }
@@ -203,3 +206,98 @@ body, html {
     line-height: normal;
     opacity: 0.5;
 }
+
+.form {
+    border: 2px solid rgb(216, 16, 235);
+    width: 75%;
+    height: 100% ;
+}
+
+.name-container {
+
+    display: flex;
+    flex-direction: row;
+    gap: 94px;
+    padding-bottom: 4%;
+
+}
+
+.form {
+
+    padding-top: 3%;
+}
+
+
+input[type="text"] {
+  padding: 23px;
+  width: 100%;
+  
+  box-sizing: border-box;
+
+  color: #000;
+  font-family: Varela;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+ 
+
+}
+
+#fname , #lname {
+    width: 120%;
+}
+
+select {
+
+    padding: 23px;
+    width: 100%;
+    
+    box-sizing: border-box;
+  
+    color: #000;
+    font-family: Varela;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    
+   
+}
+
+select::placeholder {
+    color: #888;
+    font-style: italic;
+  }
+
+button {
+    padding: 23px;
+    width: 100%;
+    background-color:#393CB2;;
+    color: white;
+    font-family: Varela;
+    font-size: 30px;
+    border: none;
+
+    cursor: pointer;
+        
+
+}
+
+.grade , .lrn  {
+    padding-bottom: 4%;
+}
+
+.section {
+
+    padding-bottom: 6%;
+}
+
+
+
+
+
+
+

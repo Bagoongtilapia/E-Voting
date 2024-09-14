@@ -81,42 +81,56 @@
                     </div>
 
                 </div>
-
-
-               
-            
                 
             </div>
-
+            
             <div class="fill-up-container">
 
-                <div class="name-container">
+               <form class="form">
 
-                    <div class="firstname">
-                        First Name
+                    <div class="name-container">
+
+                        <div class="firstname">
+                            <input type="text" id="fname" name="fname" placeholder="First Name">
+                        </div>
+
+                        <div class="lastname">
+                            <input type="text" id="lname" name="lname" placeholder="Last Name">
+                        </div>
+
+                    </div>
+                    
+                    <div class="lrn">
+                        <input type="text" id="lrn" name="lrn" placeholder="Learner Reference Number (LRN)">
                     </div>
 
-                    <div class="lastname">
-                        Last Name
+                    <div class="grade">
+                        <select id="grade1" name="Grade" >
+                            <option value="" disabled selected hidden>Grade</option>
+                            <option value="us">United States</option>
+                            <option value="ca">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="au">Australia</option>
+                            <option value="other">Other</option>
+                        </select>
                     </div>
 
-                </div>
-                
-                <div class="lrn">
-                    Learner Reference Number (LRN)
-                </div>
+                    <div class="section">
+                        <select id="section1" name="Section">
+                            <option value="" disabled selected hidden>Section</option>
+                            <option value="us">United States</option>
+                            <option value="ca">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="au">Australia</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
 
-                <div class="grade">
-                    Grade
-                </div>
+                    <div class="next">
+                        <button type="button"> Next</button>
+                    </div>
 
-                <div class="section">
-                    Section
-                </div>
-
-                <div class="next">
-                    Next
-                </div>
+               </form> 
 
             </div>
             
